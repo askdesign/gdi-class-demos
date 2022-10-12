@@ -1,0 +1,156 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*--- content-box is the DEFAULT box-sizing 
+   value of all elements ---*/
+* {
+  box-sizing: content-box;
+  } 
+
+/*--- border-box will be your layout's best friend! USE THIS INSTEAD! ---*/
+/*--- This declaration will target every element in the project ---*/
+* {
+  box-sizing: border-box;
+}
+
+/*--- Universal Box Sizing - Bootstrap uses pseudo elements to bolster the border box change ---*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Universal Box Sizing with Inheritance */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*--- https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-sizing ---*/
+
+  p {
+      color: blue;
+      font-size: 12px;
+    }
+
+  h1 {
+    color: purple;
+    font-size: 84px;
+  }
+
+
+button {
+    background-color: brown;
+    margin: 12px;
+    padding: 36px;
+    font-size: 36px;
+    color: #fff;
+    height: 50vh;
+    width: 50vw;
+  }
+  
+
+
+h1 {
+ font-size: 75px; 
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px
+}
+
+
+.sizechange,
+.producttitle {
+  font-size:18px;
+  color: #000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.background-color,
+.dentalfloss {
+  background-color: #d9dbb9 ;
+}
+
+.allcaps,
+.toothbrushhd {
+  text-transform: uppercase;
+}
+
+.text-center,
+.price {
+  text-align: center;
+}
+
+.weight,
+.sale-price {
+  font-weight: 700;
+}
+
+.changefont,
+.quantity {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.border,
+.grouped-item {
+  border: 1px solid #c61313;
+}
+
+.underlined-text,
+.boxed-item {
+  text-decoration: underline;
+}
+
+#main-nav {
+  font-size:18px;
+  text-transform: uppercase;
+}
+
+/* #main-nav>li {
+  display:inline;
+} */
+
+.main-nav-item {
+  display:inline;
+  list-style-type:none;
+  color: #bc4723e8;
+  padding: 0 12px 0 12px;
+}
+
+.artwork-box {
+  width: 768px;
+  height:300px;
+}
+
+.artwork {
+  width:200px;
+  height:auto;
+  margin:0 auto;
+}
+
+.artwork-box-bkg {
+  background-image: url("images/portil2108-hometuckedintohill-978.jpg");
+}
