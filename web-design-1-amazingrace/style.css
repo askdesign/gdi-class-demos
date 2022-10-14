@@ -24,6 +24,14 @@ body {
   background-color: #121212;
 }
 
+.about {
+  background-color: #325e9f;
+}
+
+.cast {
+  background-color:#779f32;
+}
+
 p {
   color:#fff;
   letter-spacing: 1px;
@@ -137,3 +145,87 @@ main {
   text-decoration: none;
 }
 
+/*--- columns and widths ---*/
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 1140px;
+}
+
+.one-third {
+  width: 33%;
+}
+
+.one-half {
+  width: 50%;
+}
+
+/*--- MEDIA QUERIES ---*/
+@media (min-width: 600px){
+  /* When the screen is at least 600px wide,
+  apply the following CSS rule: */
+/*   p {
+    font-size: 18px;
+
+  } */
+  
+}
+
+@media (max-width: 600px){
+  /* When the screen is 600px wide or less, do this... */
+  /* p {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 34px;
+  }
+  
+  h3 {
+    font-size: 30px;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 18px;
+  }
+  
+  h6 {
+    font-size: 16px;
+  } 
+  
+  .one-third {
+    width: 33%;
+  }
+
+  .one-half {
+    width: 50%;
+  }
+*/
+  
+}
+
+@media (min-width: 1400px) {
+/*   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}
+ */
+}
+
+/* Breakpoints - There are common device breakpoints:
+Mobile, small screens: < 576px
+Tablet: 768px - 991px
+Desktop: 992px - 1199px
+XL screens: 1200px - 1440px
+XXL screens: 1920px
+*/
+
+@media (min-width: 600px) and (max-width: 900px){
+  /* When the screen is between 600px and 900px,
+  do this... */
+}
